@@ -7,7 +7,9 @@ import {
   showLoader,
   showLoadMoreButton,
 } from './js/render-functions.js';
-import iziToast from 'izitoast';
+import iziToast from "izitoast";
+
+import "izitoast/dist/css/iziToast.min.css";
 
 const form = document.querySelector(".form");
 const input = document.querySelector(".search-input");
